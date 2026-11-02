@@ -10,11 +10,7 @@ OpenPak's Super Animal Royale server.
 | Middleware | PlayFab Client + Multiplayer Servers + Matchmaking/QoS + Party (no Photon realtime, no NEX) |
 | Licence | AGPL-3.0-only |
 
-## Status
-
-Scaffold. Every PlayFab tenant route answers `501 Not Implemented` until the
-title's PlayFab TitleId is recovered and `PLAYFAB_TITLE_ID` is set. Voice/chat
-relay defers to the shared [`playfab`](https://github.com/openpak/playfab) service.
+Voice/chat relay defers to the shared [`playfab`](https://github.com/openpak/playfab) service.
 
 ## What it serves
 
